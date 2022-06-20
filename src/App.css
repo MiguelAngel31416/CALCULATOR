@@ -1,5 +1,5 @@
 .App {
-  background-color: #282c34;
+  background-color: #a7d3ba;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -9,3 +9,111 @@
   color: white;
 }
 
+.calculator {
+  display: flex;
+  flex-direction: column;
+  background-color: #313453;
+  width: 325px;
+  height: 648px;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #303355,
+    0px -2px 2px black inset,
+    -2px 0px 2px black inset,
+    0px 2px 2px #fff inset,
+    2px 0px 2px #fff inset;
+
+}
+.display{
+  display: flex;
+  flex-direction: column;
+}
+
+textarea {
+  width: 98%;
+  height: 45px;
+  resize: none;
+  background: #d5e3e4;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-align: right;
+  font-size: 70%;
+  margin: auto;
+  /*box-shadow:
+  0px -16px 2px #7c93c4 inset,
+  0px 16px 2px #7c93c4 inset,
+  16px 0px 2px #7c93c4 inset,
+  -16px 0px 2px #7c93c4 inset;*/
+}
+
+
+#output {
+  width: inherit;
+  height: 45px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #d5e3e4;
+  text-align: right;
+  font-size: 70%;
+}
+
+.remove {
+  margin-top: 5px;
+  width: 100%;
+  display: flex;
+}
+
+.keyboard {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.key {
+  width: 78px;
+  height: 90px;
+  text-align: center;
+  border: 1px solid black;
+  margin:3px auto;
+  color: black;
+  background-color: #b5b6bb;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+  box-shadow: 2px 2px 5px,
+    0px -2px 2px inset,
+    -2px 0px 2px inset,
+    0px 2px 2px #fff inset,
+    2px 0px 2px #fff inset;
+  
+}
+
+.dobleKey {
+  width: 157px;
+}
+
+.operator{
+  border-bottom-left-radius: 100%;
+  background-color: #b3b488;
+}
+
+.delete {
+  height: 60px;
+  background-color: #cca735;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.clear {
+  height: 60px;
+  background-color: #d4550f;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.equal {
+  width: 100%;
+  background-color: #b3b488;
+}
