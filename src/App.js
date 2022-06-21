@@ -5,11 +5,11 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <p>CALCULADORA</p>
+      <p>CALCULADORA JAVA-SCRIPT</p>
       <div className='calculator'>
 
-        <div id='display'>
-          <textarea id='input'></textarea>
+        <div id='screen'>
+          <div id='display'>prueba numeros</div>
           <div id='output'><span>pepe</span></div>
         </div>
 

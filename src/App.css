@@ -14,7 +14,7 @@
   flex-direction: column;
   background-color: #313453;
   width: 325px;
-  height: 648px;
+  height: 675px;
   padding: 16px;
   border-radius: 10px;
   box-shadow: 5px 5px 5px #303355,
@@ -24,37 +24,46 @@
     2px 0px 2px #fff inset;
 
 }
-.display{
+.screen {
   display: flex;
   flex-direction: column;
 }
 
-textarea {
-  width: 98%;
+#display {
+  width: inherit;
   height: 45px;
-  resize: none;
-  background: #d5e3e4;
+  background: #b4b5ba;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  text-align: right;
+  text-align: left;
   font-size: 70%;
-  margin: auto;
-  /*box-shadow:
-  0px -16px 2px #7c93c4 inset,
-  0px 16px 2px #7c93c4 inset,
-  16px 0px 2px #7c93c4 inset,
-  -16px 0px 2px #7c93c4 inset;*/
+  padding: 10px;
+  color: black;
+  box-shadow: 
+    -1px 0px 2px white inset,
+    1px 0px 2px gray inset,
+    0px 1px 2px black inset;
+    /*-1px 0px 2px #fff inset;*/
+
 }
 
 
 #output {
   width: inherit;
   height: 45px;
+  padding-right: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  background-color: #d5e3e4;
-  text-align: right;
+  background-color: #b4b5ba;
+  color: black;
+  display: flex;
+  justify-content:right;
+  align-items:center;
   font-size: 70%;
+  box-shadow: 
+    0px -1px 2px #fff inset,
+    -1px 0px 2px #fff inset,
+    1px 0px 2px inset;
 }
 
 .remove {
